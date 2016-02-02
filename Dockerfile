@@ -1,6 +1,8 @@
 from rpi-java8:8u71
 maintainer Richard Tjerngren <richodemus@gmail.com>
 
+run apt-get update && apt-get install -y git
+
 run mkdir /maven
 add http://apache.mirrors.spacedump.net/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz /maven
 workdir /maven
